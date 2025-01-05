@@ -1,3 +1,6 @@
 [submodule "GameEngine"]
 	path = GameEngine
 	url = https://github.com/HalfDeafDev/QR-GameEngine
+[submodule "QR-VueJS"]
+	path = QR-VueJS
+	url = https://github.com/HalfDeafDev/QR-VueJS
