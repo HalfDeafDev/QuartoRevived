@@ -1,0 +1,5 @@
+:root {
+    --user-message-bg-color: rgb(213, 160, 213);
+    --other-user-message-bg-color: rgb(240, 248, 255);
+    --system-message-bg-color: rgb(128, 128, 128);
+}

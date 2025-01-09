@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Quarto Revived Test Layout</title>
+</head>
+<body>
+    <div id="app">
+        <div id="navigation-bar">
+            <div id="navigation-menu">
+                <i class="bi bi-three-dots h4"></i>
+            </div>
+            <div id="navigation-title">
+                {Title}
+            </div>
+            <div id="navigation-quick">
+                <i class="bi bi-person-circle h2"></i>
+                <i class="bi bi-envelope-fill"></i>
+                <i class="bi bi-gear-fill"></i>
+            </div>
+            <nav id="navigation-links">
+                <ul>
+                    <li><i>Play</i></li>
+                    <li><i>News</i></li>
+                    <li><i>Settings</i></li>
+                    <li><i>Contact Us</i></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="game-area">
+            <div id="chat-room">
+                <div id="top-bar">
+                    <div class="grid-col-1">
+                        <div id="user-list-toggle"><i class="bi bi-people"></i></div>
+                        <div id="room-user-invite"><i class="bi bi-person-add"></i></div>
+                    </div>
+                    <div class="grid-col-2">
+                        <div id="close-chat">X</div>
+                    </div>
+                </div>
+                <div id="user-list" class="isExpanded">
+                    <div class="user-item">
+                        <div class="player-icon">
+                            1
+                        </div>
+                        <div class="username">
+                            Sunshine
+                        </div>
+                        <div class="other-user-menu">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <div class="player-icon">
+                            2
+                        </div>
+                        <div class="username">
+                            Moonbeam
+                        </div>
+                        <div class="other-user-menu">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <div class="player-icon">
+                            G
+                        </div>
+                        <div class="username">
+                            Guest
+                        </div>
+                        <div class="other-user-menu">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <div class="player-icon">
+                            G
+                        </div>
+                        <div class="username">
+                            Guest
+                        </div>
+                        <div class="other-user-menu">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <div class="player-icon">
+                            G
+                        </div>
+                        <div class="username">
+                            Guest
+                        </div>
+                        <div class="other-user-menu">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="y-scrollable-flexbox">
+                    <div id="messages">
+                        <div class="message-item user-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        Sunshine
+                                    </div>
+                                    <div class="message-timestamp">11:11</div>
+                                </div>
+                                <div class="message-content">
+                                    Hello!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-item other-user-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        Moonbeam
+                                    </div>
+                                    <div class="message-timestamp">11:12</div>
+                                </div>
+                                <div class="message-content">
+                                    Hello!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-item user-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        Sunshine
+                                    </div>
+                                    <div class="message-timestamp">11:13</div>
+                                </div>
+                                <div class="message-content">
+                                    I love you!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-item system-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        System
+                                    </div>
+                                    <div class="message-timestamp">11:14</div>
+                                </div>
+                                <div class="message-content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, vitae! Ipsum aliquam quidem recusandae eligendi error debitis enim dolore reprehenderit, fuga minus maxime quaerat eos voluptatum similique fugiat obcaecati corrupti!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-item other-user-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        Moonbeam
+                                    </div>
+                                    <div class="message-timestamp">11:15</div>
+                                </div>
+                                <div class="message-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, totam, rerum est temporibus quod optio eaque modi commodi quisquam in deserunt ex vero dignissimos, earum officia tempora id nesciunt quos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-item user-message">
+                            <div class="message">
+                                <div class="user-message-header">
+                                    <div class="sending-user">
+                                        Sunshine
+                                    </div>
+                                    <div class="message-timestamp">11:16</div>
+                                </div>
+                                <div class="message-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum eum velit quidem dolor eligendi officia necessitatibus quasi, natus, ullam aut delectus accusantium unde minima aliquid. Eius tenetur aliquid aperiam.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="user-messaging">
+                    <input type="text" name="user-message" id="message-box">
+                    <button id="message-submit">Send</button>
+                </div>
+            </div>
+            <div id="game-board-section">
+                <div id="game-board">
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                    <div class="board-spot"></div>
+                </div>
+            </div>
+            <div id="piece-list-section">
+                <div id="piece-list" class="start-offset">
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                    <div class="piece"></div>
+                </div>
+                <div id="piece-filters">
+                    <div class="filter-button"></div>
+                    <div class="filter-button"></div>
+                    <div class="filter-button"></div>
+                    <div class="filter-button"></div>
+                </div>
+            </div>
+            <div id="chat-bar">
+            </div>
+        </div>
+        <div id="game-invite-overlay">
+            <div id="game-invite-container">
+                <div id="game-invite-menu">
+                    <div class="title-bar">
+                        <div class="title grid-col-1">
+                            Send Invite To...
+                        </div>
+                        <div id="close-invite-menu" class="grid-col-2">
+                            X
+                        </div>
+                    </div>
+                    <div class="invite-list-container">
+                        <div class="invite-panel-tabs">
+                            <div class="invite-panel-tab">
+                                Friends
+                            </div>
+                            <div class="invite-panel-tab">
+                                Recent Players
+                            </div>
+                        </div>
+                        <div id="invite-panel-container">
+                            <div class="invite-panel" id="friends-invite-panel">
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        A Friend
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="invite-panel isHidden" id="recent-players-invite-panel">
+                                <div class="invite-player-item">
+                                    <div class="username">
+                                        Another Player
+                                    </div>
+                                    <div class="online-status">
+                                        <div class="status-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleClass(className, targetElement) {
+            if (targetElement.classList.contains(className)) {
+                targetElement.classList.remove(className);
+            } else {
+                targetElement.classList.add(className);
+            }
+        }
+
+        function toggleOnClick(className, clickableElement, targetElement) {
+            clickableElement.addEventListener('click', (ev) => {
+                toggleClass(className, targetElement);
+            })
+        }
+
+        function toggleExpansionOnClick(clickableElement, expandingElement) {
+            toggleOnClick('isExpanded', clickableElement, expandingElement);
+        }
+        
+        let navigationLinks = document.getElementById("navigation-links");
+        let navigationMenu = document.getElementById("navigation-menu");
+        toggleExpansionOnClick(navigationMenu, navigationLinks);
+
+        let chatRoom = document.getElementById("chat-room");
+        let chatBar = document.getElementById("chat-bar");
+        toggleExpansionOnClick(chatBar, chatRoom);
+
+        let closeChat = document.getElementById("close-chat");
+        toggleExpansionOnClick(closeChat, chatRoom);
+
+        let userList = document.getElementById("user-list");
+        let userListToggle = document.getElementById("user-list-toggle");
+        toggleExpansionOnClick(userListToggle, userList);
+
+        let inviteMenu = document.getElementById("game-invite-overlay")
+        let closeInviteMenuButton = document.getElementById("close-invite-menu");
+        toggleExpansionOnClick(closeInviteMenuButton, inviteMenu);
+        
+        let roomUserInviteMenuButton = document.getElementById("room-user-invite");
+        toggleExpansionOnClick(roomUserInviteMenuButton, inviteMenu);
+    </script>
+</body>
+</html>
