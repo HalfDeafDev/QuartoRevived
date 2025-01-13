@@ -1,5 +1,7 @@
 # Quarto Revived
 
+[The first report](./ProgressReports/0/report.md) has been released! I discuss some of work and discoveries found in the pursuit of being friendly to play on all platforms. I also briefly show how building live static mock ups in HTML, CSS, and minimal Javascript can help you focus on on layout and themeing, as well as enabling easier customization features. Please give it a glance!
+
 ## What is it?
 
 A rebuild of [an older project](https://github.com/CTheCheese93/Quarto) that decouples the game logic and will include online multiplayer with a focus on a good mobile experience.
