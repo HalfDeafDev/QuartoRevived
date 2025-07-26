@@ -1,3 +1,9 @@
+# Quick Update
+
+While the project has gone "stale" it is definitely not over. The definite struggle with this project is getting a good front-end that works well on "all" platforms.
+
+My work on here will continue as the mood strikes and a better front-end design emerges. In the mean time, I have other projects that I have been working on.
+
 # Quarto Revived
 
 [The first report](./ProgressReports/0/report.md) has been released! I discuss some of work and discoveries found in the pursuit of being friendly to play on all platforms. I also briefly show how building live static mock ups in HTML, CSS, and minimal Javascript can help you focus on on layout and themeing, as well as enabling easier customization features. Please give it a glance!
