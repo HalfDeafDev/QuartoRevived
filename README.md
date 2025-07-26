@@ -32,7 +32,7 @@ This is not a comprehensive list but is up to date as of 2025/01/05 (YYYY/MM/DD)
 
 ## Milestones
 
-- [x] Rebuild the game logic in Python
+- [x] Rebuild the game logic in Typescript
 - [ ] Create a front-end
     - [ ] Mobile Friendly
     - [ ] Local Multiplayer
